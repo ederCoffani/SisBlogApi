@@ -44,7 +44,7 @@ localhost:3000/api/v1/comments/1
 
 Será exibido uma resposta com um único comentário:
 
-![Postman](image/postman_send_comments.png)
+![Postman](image/postman_send_comment.png)
 
 Agora vamos ver a rota que tem a finalidade de criar um novo comentário, para isso iremos abrir o arquivo comments_controller.rb novamente e observar o código da rota create.
 
@@ -92,5 +92,7 @@ No menu Body selecione a opção raw e informe no formato json os dados do comen
 
 Conclusão
 Pronto! Viu como foi simples testar esta API? Ficou show de bola e aprendemos usar o Postman a consumir essa API. Espero que tenham gostado desse meu projeto!
+
+A! antes de mais nada, fique a vontade para contribuir para esta api ela esta crua mas serve de exemplo para aqueles que ainda não aprendeu sobre API no Rails.
 
 O código do projeto está disponível no meu github até a próxima ;)
