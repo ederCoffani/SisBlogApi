@@ -3,7 +3,7 @@
 
 <h3>Mostrarei como utilizo uma Api simples desenvolvida com rails sem muito esforço.</h3>
 
-antes vamos verificar se nossa API está realmente funcionando? Para isso estou utilizado o Postman, que simula as requisições GET, POST, DELETE, PUT entre outras, a instalação é super simples, basta adicionar a extensão dele no seu navegador Google chrome (segue o link). Pronto, já está instalado? Vamos lá então! Primeiro execute o comando para subir o servidor do rails, que pode ser acessado em localhost:3000.
+Antes vamos verificar se nossa API está realmente funcionando? Para isso estou utilizado o Postman, que simula as requisições GET, POST, DELETE, PUT entre outras, a instalação é super simples, basta adicionar a extensão dele no seu navegador Google chrome (segue o link). Pronto, já está instalado? Vamos lá então! Primeiro execute o comando para subir o servidor do rails, que pode ser acessado em localhost:3000.
 
 $ rails s
 
@@ -17,12 +17,11 @@ Com o Postman aberto siga os seguintes passos:
 
 ![Postman](image/postman.png)
 
-
-
-1. Escolha o método GET;
-2. Informe a rota, que no caso é localhost:3000/api/v1/comments;
-3. Click em send, será exibido a lista de artigos do nosso banco!
-
+<ol>
+<li>Escolha o método GET;</li>
+<li>Informe a rota, que no caso é localhost:3000/api/v1/comments;</li>
+<li>Click em send, será exibido a lista de artigos do nosso banco!</li>
+</Ol>
 
 Vamos ver a rota criada para mostrar um comentário passando o seu ID, para isso iremos abrir o arquivo app/controller/api/v1/comments_controller.rb e observar o código para rota show que tem por vez um endpoint.
 
